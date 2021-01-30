@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/singer" name="SingerAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/singerReqConfig.dmc" description="singerReqMapper" inputSchema="gov:datamapper/singerReqConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/singerReqConfig_outputSchema.json" outputType="XML"/>
+            <header name="Action" scope="default" value="getInventoryRequest"/>
+            <property name="header" scope="default" type="STRING" value="application/soap+xml"/>
+            <log level="full"/>
+            <send>
+                <endpoint>
+                    <http method="post" uri-template="http://localhost:8082/soapWS"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/singerResponseConfig.dmc" inputSchema="gov:datamapper/singerResponseConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/singerResponseConfig_outputSchema.json" outputType="JSON"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

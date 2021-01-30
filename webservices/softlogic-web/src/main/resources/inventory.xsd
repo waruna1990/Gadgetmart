@@ -1,0 +1,34 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://waruna.com/softlogic-web"
+           targetNamespace="http://waruna.com/softlogic-web"
+           elementFormDefault="qualified">
+    <xs:element name="getInventoryRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client" type="xs:string"/>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="brand" type="xs:string"/>
+                <xs:element name="cost" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getInventoryResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" type="tns:product" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="product">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="productId" type="xs:int"/>
+            <xs:element name="cost" type="xs:double"/>
+            <xs:element name="brand" type="xs:string"/>
+            <xs:element name="vendorId" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

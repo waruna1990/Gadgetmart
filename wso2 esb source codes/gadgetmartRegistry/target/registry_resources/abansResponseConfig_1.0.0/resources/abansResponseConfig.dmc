@@ -1,0 +1,26 @@
+map_S_Envelope_S_root = function(){ 
+var outputroot={};
+
+var count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248 = 0;
+outputroot =  {};
+outputroot.products =  [];
+
+for(i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248 in inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product){
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248] =  {};
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].venderId = (inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product[i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].ns2_vendorId).toString();
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].name = inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product[i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].ns2_name;
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].productId = inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product[i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].ns2_productId;
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].cost = inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product[i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].ns2_cost;
+outputroot.products[count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].brand = inputSOAP_EnC0DeCHaRHyPh3n_ENV_Envelope.SOAP_EnC0DeCHaRHyPh3n_ENV_Body.ns2_getInventoryResponse.ns2_product[i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248].ns2_brand;
+
+count_i_ns2_product_c21953b8_6743_45c6_9640_ccf386069248++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+

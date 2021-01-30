@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_IlaDAFjXEeuL6-QoWc3mSw" type="DataMapper" name="softlogicResponseConfig.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_KAdEsFjXEeuL6-QoWc3mSw" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_LFPigFjXEeuL6-QoWc3mSw" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_LFPigljXEeuL6-QoWc3mSw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM4FjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LFTM4ljXEeuL6-QoWc3mSw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_LFWQMFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFWQMVjXEeuL6-QoWc3mSw" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LFWQMljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFWQM1jXEeuL6-QoWc3mSw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM4VjXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM41jXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LFTM5VjXEeuL6-QoWc3mSw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_LFbIsFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFbIsVjXEeuL6-QoWc3mSw" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LFbIsljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFbIs1jXEeuL6-QoWc3mSw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM5FjXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM5ljXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LFTM6FjXEeuL6-QoWc3mSw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_LFgBMFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFgBMVjXEeuL6-QoWc3mSw" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LFgBMljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFgBM1jXEeuL6-QoWc3mSw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM51jXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM6VjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LFTM61jXEeuL6-QoWc3mSw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_LFk5sFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.3/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFk5sVjXEeuL6-QoWc3mSw" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LFk5sljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.3/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFk5s1jXEeuL6-QoWc3mSw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM6ljXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM7FjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM7VjXEeuL6-QoWc3mSw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LFTM7ljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFTM71jXEeuL6-QoWc3mSw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LFPigVjXEeuL6-QoWc3mSw"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="softlogicResponseConfig.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAdEsVjXEeuL6-QoWc3mSw" width="250" height="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KAdEsljXEeuL6-QoWc3mSw" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_gt00gFjXEeuL6-QoWc3mSw" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gt00gljXEeuL6-QoWc3mSw" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_gt330FjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gt4e4FjXEeuL6-QoWc3mSw" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt330VjXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gt4e4VjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gt4e41jXEeuL6-QoWc3mSw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_gt_MkFjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_gt_MkljXEeuL6-QoWc3mSw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_guC28FjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_guDeAFjXEeuL6-QoWc3mSw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_guGhUFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guGhUVjXEeuL6-QoWc3mSw" x="-5" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_guGhUljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guGhU1jXEeuL6-QoWc3mSw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guC28VjXEeuL6-QoWc3mSw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_guDeAVjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_guDeA1jXEeuL6-QoWc3mSw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_guKywFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guKywVjXEeuL6-QoWc3mSw" x="-5" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_guLZ0FjXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guLZ0VjXEeuL6-QoWc3mSw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guDeAljXEeuL6-QoWc3mSw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_guDeBFjXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_guDeBljXEeuL6-QoWc3mSw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_guPrQFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guPrQVjXEeuL6-QoWc3mSw" x="-5" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_guPrQljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guPrQ1jXEeuL6-QoWc3mSw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guDeBVjXEeuL6-QoWc3mSw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_guDeB1jXEeuL6-QoWc3mSw" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_guDeCVjXEeuL6-QoWc3mSw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_guT8sFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guT8sVjXEeuL6-QoWc3mSw" x="-5" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_guUjwFjXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guUjwVjXEeuL6-QoWc3mSw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guDeCFjXEeuL6-QoWc3mSw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_guDeCljXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guDeC1jXEeuL6-QoWc3mSw" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_guDeDFjXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_guDeDVjXEeuL6-QoWc3mSw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt_MkVjXEeuL6-QoWc3mSw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_gt_zoFjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt_zoVjXEeuL6-QoWc3mSw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_gt_zoljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt_zo1jXEeuL6-QoWc3mSw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt4e4ljXEeuL6-QoWc3mSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gt4e5FjXEeuL6-QoWc3mSw" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt4e5VjXEeuL6-QoWc3mSw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gt4e5ljXEeuL6-QoWc3mSw" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt4e51jXEeuL6-QoWc3mSw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="softlogicResponseConfig.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt00gVjXEeuL6-QoWc3mSw"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="softlogicResponseConfig.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAdEs1jXEeuL6-QoWc3mSw" x="106" width="250" height="100"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_IlaDAVjXEeuL6-QoWc3mSw"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="softlogicResponseConfig.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_hct60FjXEeuL6-QoWc3mSw" type="4001" source="_LFWQMljXEeuL6-QoWc3mSw" target="_guGhUFjXEeuL6-QoWc3mSw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_hct60VjXEeuL6-QoWc3mSw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hct60ljXEeuL6-QoWc3mSw" points="[-1, 0, -255, -52]$[253, 52, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hcvwAFjXEeuL6-QoWc3mSw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hcvwAVjXEeuL6-QoWc3mSw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_h4kJUFjXEeuL6-QoWc3mSw" type="4001" source="_LFbIsljXEeuL6-QoWc3mSw" target="_guKywFjXEeuL6-QoWc3mSw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_h4kJUVjXEeuL6-QoWc3mSw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h4kJUljXEeuL6-QoWc3mSw" points="[-1, 0, -255, -53]$[253, 53, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4lXcFjXEeuL6-QoWc3mSw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4lXcVjXEeuL6-QoWc3mSw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iUaX0FjXEeuL6-QoWc3mSw" type="4001" source="_LFgBMljXEeuL6-QoWc3mSw" target="_guPrQFjXEeuL6-QoWc3mSw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_iUaX0VjXEeuL6-QoWc3mSw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iUaX0ljXEeuL6-QoWc3mSw" points="[-1, 0, -255, -53]$[253, 53, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iUbl8FjXEeuL6-QoWc3mSw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iUbl8VjXEeuL6-QoWc3mSw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ixnRMFjXEeuL6-QoWc3mSw" type="4001" source="_LFk5sljXEeuL6-QoWc3mSw" target="_guT8sFjXEeuL6-QoWc3mSw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ixnRMVjXEeuL6-QoWc3mSw" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="softlogicResponseConfig.datamapper#//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ixnRMljXEeuL6-QoWc3mSw" points="[-1, 0, -255, -53]$[253, 53, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixn4QFjXEeuL6-QoWc3mSw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ixn4QVjXEeuL6-QoWc3mSw" id="CENTER"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,57 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "SOAP-ENV:Envelope",
+  "type" : "object",
+  "properties" : {
+    "SOAP-ENV:Header" : {
+      "id" : "http://wso2jsonschema.org/SOAP-ENV:Header",
+      "type" : "null"
+    },
+    "SOAP-ENV:Body" : {
+      "id" : "http://wso2jsonschema.org/SOAP-ENV:Body",
+      "type" : "object",
+      "properties" : {
+        "ns2:getInventoryResponse" : {
+          "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse",
+          "type" : "object",
+          "properties" : {
+            "ns2:product" : {
+              "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product",
+              "type" : "array",
+              "items" : [ {
+                "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0",
+                "type" : "object",
+                "properties" : {
+                  "ns2:name" : {
+                    "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:name",
+                    "type" : "string"
+                  },
+                  "ns2:productId" : {
+                    "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:productId",
+                    "type" : "number"
+                  },
+                  "ns2:cost" : {
+                    "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:cost",
+                    "type" : "number"
+                  },
+                  "ns2:brand" : {
+                    "id" : "http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:brand",
+                    "type" : "string"
+                  }
+                }
+              } ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "SOAP-ENV",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "ns2",
+    "url" : "http://waruna.com/singer-web"
+  } ]
+}

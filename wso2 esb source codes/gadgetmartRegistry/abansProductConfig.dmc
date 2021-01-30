@@ -1,0 +1,18 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.us_getInventoryRequest =  {};
+outputsoapenv_Envelope.soapenv_Body.us_getInventoryRequest.us_client = inputroot.client;
+outputsoapenv_Envelope.soapenv_Body.us_getInventoryRequest.us_type = inputroot.type;
+outputsoapenv_Envelope.soapenv_Body.us_getInventoryRequest.us_brand = inputroot.brand;
+outputsoapenv_Envelope.soapenv_Body.us_getInventoryRequest.us_cost = (inputroot.cost).toString();
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+

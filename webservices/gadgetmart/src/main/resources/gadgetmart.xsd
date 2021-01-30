@@ -1,0 +1,199 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://waruna.com/gadgetmart-web"
+           targetNamespace="http://waruna.com/gadgetmart-web"
+           elementFormDefault="qualified">
+
+    <xs:element name="getUserRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getUserResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="saveUserRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="password" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="saveUserResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="password" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="updateUserRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="password" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="updateUserResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="password" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getInventoryRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="brand" type="xs:string"/>
+                <xs:element name="cost" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getInventoryResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" type="tns:product" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="product">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="productId" type="xs:int"/>
+            <xs:element name="cost" type="xs:double"/>
+            <xs:element name="brand" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="saveVendorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="saveVendorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getVendorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getVendorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="updateVendorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="updateVendorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendorId" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="saveOrderRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="orderItem" type="tns:orderItem" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="orderItem">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="userId" type="xs:string"/>
+            <xs:element name="vendorId" type="xs:string"/>
+            <xs:element name="productId" type="xs:string"/>
+            <xs:element name="quantity" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="saveOrderResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="count" type="xs:string"/>
+                <xs:element name="message" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getUserOrdersRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getUserOrdersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="orderItem" type="tns:orderItem" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

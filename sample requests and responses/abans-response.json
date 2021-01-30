@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "venderId": "1",
+            "name": "chair",
+            "productId": 1,
+            "cost": 11.00,
+            "brand": "Damro"
+        }
+    ]
+}

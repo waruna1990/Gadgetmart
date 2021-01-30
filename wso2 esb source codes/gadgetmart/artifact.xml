@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="abans-ws" groupId="com.example.gadgetmart.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/abans-ws.xml</file>
+    </artifact>
+    <artifact name="SingerAPI" groupId="com.example.gadgetmart.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SingerAPI.xml</file>
+    </artifact>
+    <artifact name="SoftlogicAPI" groupId="com.example.gadgetmart.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SoftlogicAPI.xml</file>
+    </artifact>
+</artifacts>

@@ -1,0 +1,47 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "null"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "us:getInventoryRequest" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/us:getInventoryRequest",
+          "type" : "object",
+          "properties" : {
+            "us:client" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/us:getInventoryRequest/us:client",
+              "type" : "string"
+            },
+            "us:type" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/us:getInventoryRequest/us:type",
+              "type" : "string"
+            },
+            "us:brand" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/us:getInventoryRequest/us:brand",
+              "type" : "string"
+            },
+            "us:cost" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/us:getInventoryRequest/us:cost",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "us",
+    "url" : "http://waruna.com/singer-web"
+  } ]
+}

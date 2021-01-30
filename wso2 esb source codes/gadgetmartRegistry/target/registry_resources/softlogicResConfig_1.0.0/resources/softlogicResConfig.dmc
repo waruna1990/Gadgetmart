@@ -1,0 +1,24 @@
+map_S_Envelope_S_root = function(){ 
+var outputroot={};
+
+var count_i_ns2_product = 0;
+outputroot =  {};
+outputroot.products =  [];
+
+for(i_ns2_product in 'inputSOAP-ENV_Envelope']['SOAP-ENV_Body'].ns2_getInventoryResponse.ns2_product){
+outputroot.products[count_i_ns2_product] =  {};
+outputroot.products[count_i_ns2_product].name = 'inputSOAP-ENV_Envelope']['SOAP-ENV_Body'].ns2_getInventoryResponse.ns2_product[i_ns2_product].ns2_name;
+outputroot.products[count_i_ns2_product].productId = 'inputSOAP-ENV_Envelope']['SOAP-ENV_Body'].ns2_getInventoryResponse.ns2_product[i_ns2_product].ns2_productId;
+outputroot.products[count_i_ns2_product].cost = 'inputSOAP-ENV_Envelope']['SOAP-ENV_Body'].ns2_getInventoryResponse.ns2_product[i_ns2_product].ns2_cost;
+outputroot.products[count_i_ns2_product].brand = 'inputSOAP-ENV_Envelope']['SOAP-ENV_Body'].ns2_getInventoryResponse.ns2_product[i_ns2_product].ns2_brand;
+
+count_i_ns2_product++;
+}
+return outputroot;
+};
+
+
+
+
+
+

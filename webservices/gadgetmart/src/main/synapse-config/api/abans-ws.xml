@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/abans" name="abans-ws" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/abansProductConfig.dmc" description="requestMapper" inputSchema="gov:datamapper/abansProductConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/abansProductConfig_outputSchema.json" outputType="XML"/>
+            <header name="Action" scope="default" value="getInventoryRequest"/>
+            <property name="ContentType" scope="axis2" type="STRING" value="text/xml"/>
+            <log level="full"/>
+            <send>
+                <endpoint>
+                    <http method="post" statistics="enable" trace="enable" uri-template="http://localhost:8081/soapWS"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <log description="response-log" level="full"/>
+            <datamapper config="gov:datamapper/abansResponseConfig.dmc" description="responseMapper" inputSchema="gov:datamapper/abansResponseConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/abansResponseConfig_outputSchema.json" outputType="JSON"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

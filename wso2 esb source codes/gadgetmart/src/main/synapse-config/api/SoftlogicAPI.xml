@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/softlogic" name="SoftlogicAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/softlogicRequestConfig.dmc" description="softlogicRequestMapper" inputSchema="gov:datamapper/softlogicRequestConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/softlogicRequestConfig_outputSchema.json" outputType="XML"/>
+            <header name="Action" scope="default" value="getInventoryRequest"/>
+            <property name="ContentType" scope="axis2" type="STRING" value="application/soap+xml"/>
+            <log level="full"/>
+            <send>
+                <endpoint>
+                    <http method="post" uri-template="http://localhost:8083/soapWS"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/softlogicResConfig.dmc" description="softlogicResMapper" inputSchema="gov:datamapper/softlogicResConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/softlogicResConfig_outputSchema.json" outputType="XML"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

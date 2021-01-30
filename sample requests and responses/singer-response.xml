@@ -1,0 +1,31 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getInventoryResponse xmlns:ns2="http://waruna.com/singer-web">
+            <ns2:product>
+                <ns2:name>chair</ns2:name>
+                <ns2:productId>1</ns2:productId>
+                <ns2:cost>1000.0</ns2:cost>
+                <ns2:brand>Damro</ns2:brand>
+            </ns2:product>
+            <ns2:product>
+                <ns2:name>tv</ns2:name>
+                <ns2:productId>2</ns2:productId>
+                <ns2:cost>2000.0</ns2:cost>
+                <ns2:brand>Sharp</ns2:brand>
+            </ns2:product>
+            <ns2:product>
+                <ns2:name>green tea</ns2:name>
+                <ns2:productId>3</ns2:productId>
+                <ns2:cost>100.0</ns2:cost>
+                <ns2:brand>Celenta</ns2:brand>
+            </ns2:product>
+            <ns2:product>
+                <ns2:name>table</ns2:name>
+                <ns2:productId>4</ns2:productId>
+                <ns2:cost>2000.0</ns2:cost>
+                <ns2:brand>Damro</ns2:brand>
+            </ns2:product>
+        </ns2:getInventoryResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

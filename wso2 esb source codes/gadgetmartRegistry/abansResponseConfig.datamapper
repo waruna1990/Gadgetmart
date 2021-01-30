@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="SOAP-ENV:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="SOAP-ENV:Header" schemaDataType="NULL" level="2">
+        <properties key="namespaces" value="{prefix=SOAP-ENV, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="SOAP-ENV:Body" schemaDataType="OBJECT" level="2">
+        <node name="ns2:getInventoryResponse" schemaDataType="OBJECT" level="3">
+          <node name="ns2:product" level="4">
+            <node name="ns2:vendorId" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:vendorId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="ns2:name" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:name"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="ns2:productId" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:productId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="ns2:cost" schemaDataType="NUMBER" level="5">
+              <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:cost"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="ns2:brand" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:brand"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.4/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{ns2:vendorId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:vendorId, type=number}, ns2:name={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:name, type=string}, ns2:productId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:productId, type=number}, ns2:cost={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:cost, type=number}, ns2:brand={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:brand, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=ns2, url=http://waruna.com/abans-web}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{ns2:product={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product, type=array, items=[{id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0, type=object, properties={ns2:vendorId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:vendorId, type=number}, ns2:name={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:name, type=string}, ns2:productId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:productId, type=number}, ns2:cost={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:cost, type=number}, ns2:brand={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:brand, type=string}}}]}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=SOAP-ENV, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/SOAP-ENV:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{ns2:getInventoryResponse={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse, type=object, properties={ns2:product={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product, type=array, items=[{id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0, type=object, properties={ns2:vendorId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:vendorId, type=number}, ns2:name={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:name, type=string}, ns2:productId={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:productId, type=number}, ns2:cost={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:cost, type=number}, ns2:brand={id=http://wso2jsonschema.org/SOAP-ENV:Body/ns2:getInventoryResponse/ns2:product/0/ns2:brand, type=string}}}]}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=SOAP-ENV, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=ns2, url=http://waruna.com/abans-web}"/>
+      <properties key="namespaces" value="{prefix=SOAP-ENV, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="products" level="2">
+        <node name="venderId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/products/0/venderId"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="name" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/products/0/name"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="productId" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/products/0/productId"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="cost" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/products/0/cost"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="brand" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/products/0/brand"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+        </node>
+        <properties key="type" value="array"/>
+        <properties key="id" value="http://wso2jsonschema.org/products"/>
+        <properties key="items_id" value="http://wso2jsonschema.org/products/0"/>
+        <properties key="items_type" value="object"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{venderId={id=http://wso2jsonschema.org/products/0/venderId, type=string}, name={id=http://wso2jsonschema.org/products/0/name, type=string}, productId={id=http://wso2jsonschema.org/products/0/productId, type=number}, cost={id=http://wso2jsonschema.org/products/0/cost, type=number}, brand={id=http://wso2jsonschema.org/products/0/brand, type=string}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

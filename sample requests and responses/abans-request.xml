@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://waruna.com/abans-web">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getInventoryRequest>
+            <us:client>Sam</us:client>
+            <us:type>all</us:type>
+            <us:brand>all</us:brand>
+            <us:cost>1.00</us:cost>
+        </us:getInventoryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
